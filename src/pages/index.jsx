@@ -1,8 +1,6 @@
-import Home from './Home';
-import Add from './Add';
-import Details from './Details';
-import Login from './Login';
-import Register from './Register';
-import Profile from './Profile';
-
-export {Home, Add, Details, Login, Register, Profile } 
+export { default as Add } from "./Add";
+export { default as Details } from "./Details";
+export { default as Home } from "./Home";
+export { default as Login } from "./Login";
+export { default as Profile } from "./Profile";
+export { default as Register } from "./Register";

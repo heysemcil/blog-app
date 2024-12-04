@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Add, Details, Home, Login, Profile, Register } from "./pages";
+import { Add, Details, Home, Login, Profile, Register } from "@/pages";
 import PrivateRouter from "./PrivateRouter";
 
 
