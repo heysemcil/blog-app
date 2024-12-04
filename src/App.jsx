@@ -1,8 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { Add, Details, Home, Login, Profile, Register } from "./pages";
 import PrivateRouter from "./PrivateRouter";
-import { useEffect } from "react";
-import { useBlog } from "./context/Blog";
+
 
 const App = () => {
 
